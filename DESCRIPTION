@@ -21,3 +21,5 @@ LazyData: true
 RoxygenNote: 7.3.2
 Depends: 
     R (>= 3.5)
+URL: https://github.com/thaipartaj/lab3package
+BugReports: https://github.com/thaipartaj/lab3package/issues
