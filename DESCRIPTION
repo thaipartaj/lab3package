@@ -23,3 +23,6 @@ Depends:
     R (>= 3.5)
 URL: https://github.com/thaipartaj/lab3package
 BugReports: https://github.com/thaipartaj/lab3package/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
