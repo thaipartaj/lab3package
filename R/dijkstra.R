@@ -46,9 +46,13 @@ dijkstra <- function(graph, init_node){
     visited[as.character(current)] <- TRUE
     candidate_dist <- dist; candidate_dist[visited] <- Inf
 
-    if(sum(visited) < length(visited)) current <- nodes[which.min(candidate_dist)]
-  }
+    if(sum(visited) < length(visited)) {
+      min_val <- min(candidate_dist) # FIX: Check if the closest unvisited node is unreachable (Inf)
+      if (is.infinite(min_val)) break # Exit the loop safely remaining nodes are unreachable
+      current <- nodes[which.min(candidate_dist)]
+    }
+    }
   return(unname(dist))
-}
+  }
 
 
