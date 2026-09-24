@@ -5,7 +5,7 @@
 [![R-CMD-check](https://github.com/thaipartaj/lab3package/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/thaipartaj/lab3package/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of lab3package is to ...
+JAG PROVAR ATT ÄNDRA DENNA BARA:
 
 ## Installation
 
