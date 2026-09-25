@@ -1,27 +1,39 @@
-
 # lab3package
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/thaipartaj/lab3package/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/thaipartaj/lab3package/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-JAG PROVAR ATT ÄNDRA DENNA BARA:
+This package provides functions that implement the Euclidean algorithm and Dijkstra’s algorithm.
 
 ## Installation
 
-You can install the development version of lab3package from [GitHub](https://github.com/) with:
+The package can be installed directly from GitHub:
 
-``` r
-# install.packages("pak")
+```r
+install.packages("pak") # Run this line if pak is not already installed
 pak::pak("thaipartaj/lab3package")
 ```
 
-## Example
+## Examples
 
-This is a basic example which shows you how to solve a common problem:
+Load the package:
 
-``` r
+```r
 library(lab3package)
-## basic example code
+```
+
+The Euclidean algorithm finds the greatest common divisor (GCD) of two numbers:
+
+```r
+euclidean(100, 75)
+# [1] 25
+```
+
+Dijkstra’s algorithm finds the shortest distance from a specified node to every other node in a graph.
+
+```r
+dijkstra(wiki_graph, 1)
+# [1] 0  7  9 20 20 11
 ```
 
