@@ -1,5 +1,11 @@
 # lab3package
 
+## Authors
+
+| Name | LiU-ID | GitHub |
+| --- | --- | --- |
+| Hampus Beijer | ditt LiU-ID | [HBeijer](https://github.com/HBeijer) |
+| Thai Pham | Thais LiU-ID | [thaipartaj](https://github.com/thaipartaj) |
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/thaipartaj/lab3package/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/thaipartaj/lab3package/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
