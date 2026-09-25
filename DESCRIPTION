@@ -1,6 +1,6 @@
 Package: lab3package
 Type: Package
-Title: Dijkstras and Euclidean algorithm
+Title: The Euclidean and Dijkstra Algorithms
 Version: 0.1.0
 Authors@R: c(
     person(
@@ -11,18 +11,20 @@ Authors@R: c(
     person(
       "Thai", "Pham",
       email = "duyph635@student.liu.se",
-      role = c("aut","cre")
+      role = c("aut", "cre")
     )
   )
-Description: This package contains function for the Euclidean algorithm and the Dijkstra algorithm.
+Description: This package provids functions for finding the greatest common divisor
+  of two integers using the Ecludian algorithm and the shortest distance between nodes in a graph
+  using Dijkstra's algorithm.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
-Depends: 
+Depends:
     R (>= 3.5)
 URL: https://github.com/thaipartaj/lab3package
 BugReports: https://github.com/thaipartaj/lab3package/issues
-Suggests: 
+Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
